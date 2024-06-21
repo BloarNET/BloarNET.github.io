@@ -18,6 +18,16 @@ p {
   display: block;
 }
 
+a {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100px;
+  font-weight: 700;
+  color: teal;
+  text-decoration: underline;
+  margin-left: 0.5rem;
+}
+
 #header-container {
   vertical-align: top;
   background-color: #111;
@@ -52,7 +62,27 @@ p {
   margin-left: 50%;
 }
 
+video {
+  height: 75%;
+  width: 75%;
+}
+
+#link-container {
+  background-color: #111;
+  border-color: teal;
+  border-style: solid;
+  vertical-align: top;
+  display: block;
+  width: 22rem;
+  margin-left: 40%;
+  margin:auto;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+
 #under-construction {
+  margin-top: 5%;
   background-image: repeating-linear-gradient(to left, cyan, cyan, teal, blue, indigo, violet, indigo, blue, teal, cyan, violet, violet);
   background-clip: text;
   color: transparent;
