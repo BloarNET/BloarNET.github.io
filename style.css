@@ -55,6 +55,13 @@ a {
   margin-block-end: 5px;
 }
 
+#angry-blunks {
+  color: cyan;
+  font-size: 200%;
+  margin-block-start: 5px;
+  margin-block-end: 5px;
+}
+
 #evil-blunk {
   margin-top: 1000px;
   width: 100px;
