@@ -1,0 +1,67 @@
+#header-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  color: #42a1fd;
+  text-align: center;
+}
+
+body {
+  background-color: black;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: azure;
+  margin-block: 1px;
+  margin: auto;
+  display: block;
+}
+
+#header-container {
+  vertical-align: top;
+  background-color: #111;
+  display: block;
+  width: 15rem;
+  border-style: solid;
+  border-color: #42a1fd;
+  border-radius: 10px;
+  margin-left: 40%;
+  margin:auto;
+  margin-bottom: 50px;
+}
+
+#wiki-link {
+  width: 10%;
+  display: inline-block;
+  block-size: 1000%;
+  align-self: center;
+}
+
+#lurking-blunks {
+  color:#333;
+  font-size: smaller;
+  margin-block-start: 5px;
+  margin-block-end: 5px;
+}
+
+#evil-blunk {
+  margin-top: 1000px;
+  width: 100px;
+  height: 10000px;
+  margin-left: 50%;
+}
+
+#under-construction {
+  background-image: repeating-linear-gradient(to left, cyan, cyan, teal, blue, indigo, violet, indigo, blue, teal, cyan, violet, violet);
+  background-clip: text;
+  color: transparent;
+  animation: rainbow 10000ms linear infinite;
+  background-size: 800% 800%;
+}
+
+@keyframes rainbow {
+  0% {background-position: 0% 0%;}
+  50% {background-position: 100% 0%;}
+  100% {background-position: 0% 0%;}
+}
